@@ -1,5 +1,5 @@
 [ISI] Trabalho Prático I: Integração e Análise de Dados de Saúde (Reservas e Dadores)
-🎯 Objetivo do Projeto
+Objetivo do Projeto
 Este repositório contém o trabalho prático desenvolvido no âmbito da Unidade Curricular de Integração de Sistemas de Informação (ISI). O foco é aplicar e experimentar processos de ETL (Extract, Transform and Load) para integrar dados de saúde dispersos em formato JSON, transformá-los e prepará-los para análise.
 
 O objetivo principal é consolidar datasets de Reservas de Componentes Sanguíneos e Dadores (1ª Vez e Regulares) por Região e Entidade, culminando na produção de um dataset limpo e estruturado.
@@ -23,7 +23,7 @@ Criação de dashboards para análise dos resultados.
 Sim (Visualização dos resultados)
 
 Exportar para Sheets
-⚙️ Processo ETL (KNIME Workflow)
+Processo ETL (KNIME Workflow)
 O fluxo de trabalho foi construído no KNIME e está dividido em três fases principais, conforme os princípios de ETL:
 
 1. Extract & Initial Transformation
@@ -46,14 +46,14 @@ Tratamento de Missing Values: Substituição de valores nulos em colunas numéri
 3. Load
 Parquet Writer: Carregamento dos dados limpos e integrados para o ficheiro DadosDadiva.parquet.
 
-📊 Resultados da Análise (Visualizações)
+Resultados da Análise (Visualizações)
 O dataset final processado foi utilizado para gerar visualizações que permitem auditar a distribuição de reservas e dadores:
 
 Visualização	Destaque	Imagem de Referência
 Soma de Reservas por Região	Demonstra o volume total de reservas, onde a Entidade Central (IPST, IP) é a dominante.	[image_5793a5.png]
 Soma de Dadores por Região	Compara a distribuição de dadores 1a Vez e Regulares, confirmando a prevalência da Entidade Central.	[image_5793e4.png]
 
-🚀 Trabalhos Futuros
+Trabalhos Futuros
 
 Orquestração: Explorar ferramentas como Node-RED ou Apache Airflow para agendamento e monitorização do Job de ETL (Job Control).
 
